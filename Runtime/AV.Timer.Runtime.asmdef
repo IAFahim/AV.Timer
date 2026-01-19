@@ -1,0 +1,4 @@
+name: AV.Timer.Runtime
+rootNamespace: AV.Timer
+autoReferenced: true
+

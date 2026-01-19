@@ -1,0 +1,29 @@
+{
+  "name": "com.av.timer",
+  "version": "1.0.0",
+  "displayName": "AV Timer",
+  "description": "Timer and cooldown system for managing time-based events and gameplay mechanics.",
+  "unity": "2021.3",
+  "author": {
+    "name": "IAFahim",
+    "email": "iafahim.dev@gmail.com",
+    "url": "https://github.com/IAFahim"
+  },
+  "keywords": [
+    "timer",
+    "cooldown",
+    "scheduling",
+    "time-management"
+  ],
+  "license": "MIT",
+  "category": "Utilities",
+  "dependencies": {
+    "com.variable.timer": "1.0.11"
+  },
+  "samples": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IAFahim/AV.Timer"
+  },
+  "licensesUrl": "https://github.com/IAFahim/AV.Timer/blob/main/LICENSE.md"
+}
