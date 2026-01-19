@@ -2,11 +2,10 @@ using UnityEngine;
 using UnityEngine.Events;
 using Variable.Timer;
 
-[HelpURL("https://github.com/IAFahim/AV.Timer")]
-[AddComponentMenu("AV/Timer/CooldownTrigger")]
-
 namespace AV.Timer.Runtime
 {
+    [HelpURL("https://github.com/IAFahim/AV.Timer")]
+    [AddComponentMenu("AV/Timer/CooldownTrigger")]
     public class CooldownTrigger : MonoBehaviour
     {
         public Cooldown cooldown = new(1);
