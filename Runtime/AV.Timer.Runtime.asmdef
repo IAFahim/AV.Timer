@@ -1,3 +1,5 @@
-name: AV.Timer.Runtime
-rootNamespace: AV.Timer
-autoReferenced: true
+{
+    "name": "AV.Timer.Runtime",
+    "rootNamespace": "AV.Timer",
+    "autoReferenced": true
+}
