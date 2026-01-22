@@ -4,8 +4,6 @@ using Variable.Timer;
 
 namespace AV.Timer.Runtime
 {
-    [HelpURL("https://github.com/IAFahim/AV.Timer")]
-    [AddComponentMenu("AV/Timer/CooldownTrigger")]
     public class CooldownTrigger : MonoBehaviour
     {
         public Cooldown cooldown = new(1);

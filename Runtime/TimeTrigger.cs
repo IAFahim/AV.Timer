@@ -4,8 +4,6 @@ using Variable.Timer;
 
 namespace AV.Timer.Runtime
 {
-    [HelpURL("https://github.com/IAFahim/AV.Timer")]
-    [AddComponentMenu("AV/Timer/TimeTrigger")]
     public class TimeTrigger : MonoBehaviour
     {
         public Variable.Timer.Timer timer = new(1);
