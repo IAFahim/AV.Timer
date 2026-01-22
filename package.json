@@ -19,7 +19,7 @@
   "license": "MIT",
   "category": "Utilities",
   "dependencies": {
-    "com.variable.timer": "1.0.11"
   },
-  "samples": []
+  "samples": [],
+  "_fingerprint": "3e48a15ff6d1b9ef5e340378df9d00828455f4ab"
 }
