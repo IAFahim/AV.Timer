@@ -1,48 +1,31 @@
 # AV.Timer
 
-[![Unity Version](https://img.shields.io/badge/Unity-2022.3%2B-blue.svg)](https://unity3d.com/get-unity/download)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md)
-[![Version](https://img.shields.io/badge/Version-1.0.0-orange.svg)](CHANGELOG.md)
+![Header](documentation_header.svg)
 
-Timer and cooldown trigger components for Unity with UnityEvent integration.
+[![Unity](https://img.shields.io/badge/Unity-2022.3%2B-000000.svg?style=flat-square&logo=unity)](https://unity.com)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE.md)
 
-## Features
+UnityEvent wrappers for `Variable.Timer` structs.
 
-- CooldownTrigger component for event-based cooldowns
-- TimeTrigger for one-shot timer events
-- UnityEvent integration for visual programming
-- Automatic reset on enable
-- Simple inspector configuration
+## ✨ Features
 
-## Installation
+- **CooldownTrigger**: Ticks a cooldown every frame and fires a UnityEvent when ready.
+- **Zero Allocation Logic**: Wraps the allocation-free `Variable.Timer` structs.
 
-```
-Window > Package Manager > + > Add package from git URL
-```
-```
-https://github.com/IAFahim/AV.Timer.git
-```
+## 📦 Installation
 
-## Usage
+Install via Unity Package Manager (git URL).
 
-```csharp
-using AV.Timer.Runtime;
+### Dependencies
+- **Variable.Timer** (NuGet)
 
-public class MyBehaviour : MonoBehaviour
-{
-    // Add CooldownTrigger component in Inspector
-    // Configure cooldown duration and UnityEvent callbacks
-}
-```
+## 🚀 Usage
 
-Or add via Inspector and configure:
-- Cooldown: Duration
-- On Time Triggered: UnityEvent callback
+1. Add `CooldownTrigger` to a GameObject.
+2. Set `Duration`.
+3. Connect `OnTimeTriggered` to your logic (e.g., `SpawnEnemy`).
 
-## License
+## ⚠️ Status
 
-MIT License - see [LICENSE.md](LICENSE.md) for details.
-
-## Author
-
-**IAFahim** - [GitHub](https://github.com/IAFahim)
+- 🧪 **Tests**: Missing.
+- 📘 **Samples**: None.

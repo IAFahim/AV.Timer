@@ -1,7 +1,7 @@
 {
   "name": "com.av.timer",
   "version": "1.0.0",
-  "displayName": "AV.Timer",
+  "displayName": "AV Timer",
   "description": "Timer and cooldown trigger components for Unity with UnityEvent integration",
   "unity": "2022.3",
   "author": {
@@ -21,5 +21,8 @@
   "dependencies": {
   },
   "samples": [],
-  "_fingerprint": "3e48a15ff6d1b9ef5e340378df9d00828455f4ab"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IAFahim/AV.Timer"
+  }
 }
